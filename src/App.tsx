@@ -1,9 +1,10 @@
 import React, { FC } from 'react'
+import AppRouter from './components/AppRouter'
 
 const App: FC = () => {
   return (
     <div >
-      <h1>Проект работает</h1>
+      <AppRouter />
     </div>
   )
 }
