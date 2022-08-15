@@ -5,7 +5,7 @@ import Event from '../pages/Event'
 import { privateRoutes, publicRoutes } from '../router'
 
 const AppRouter: FC = () => {
-  const auth = true
+  const auth = false
 
   return (
         auth
