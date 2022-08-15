@@ -32,10 +32,9 @@ export const AuthActionCreators = {
         }
     },
     logout: () => async (dispatch: AppDispatch) => {
-        try {
-
-        } catch (error) {
-
-        }
+            localStorage.removeItem('auth')
+            localStorage.removeItem('username')
+            dispatch(AuthActionCreators.setUser({} as IUser))
+            dispatch(AuthActionCreators.setIsAut(false))
     }
 }
