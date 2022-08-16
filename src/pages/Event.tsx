@@ -1,6 +1,7 @@
 import { Button, Modal, Row } from 'antd'
 import React, { FC, useState } from 'react'
 import EventCalendar from '../components/EventCalendar'
+import EventForm from '../components/EventForm'
 
 const Event: FC = () => {
   const [modalVisible, setModalVisible] = useState(false)
@@ -20,7 +21,7 @@ const Event: FC = () => {
         footer={null}
         onCancel={() => setModalVisible(false)}
       >
-
+      <EventForm />
       </Modal>
     </div>
   )
