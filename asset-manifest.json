@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/ulbi-tv-real-task/static/css/main.5d9a970b.css",
+    "main.js": "/ulbi-tv-real-task/static/js/main.dc52db18.js",
+    "index.html": "/ulbi-tv-real-task/index.html",
+    "main.5d9a970b.css.map": "/ulbi-tv-real-task/static/css/main.5d9a970b.css.map",
+    "main.dc52db18.js.map": "/ulbi-tv-real-task/static/js/main.dc52db18.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.5d9a970b.css",
+    "static/js/main.dc52db18.js"
+  ]
+}
